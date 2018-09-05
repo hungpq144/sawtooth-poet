@@ -64,7 +64,7 @@ static const uint32_t       WAIT_CERTIFICATE_NONCE_LENGTH = 32;
 // Timers, once expired, should not be usuable indefinitely.
 // This constant allows a 30-second window after expiration for
 // which a timer may be used to create a wait certificate.
-static const double         TIMER_TIMEOUT_PERIOD = 30.0;
+static const double         TIMER_TIMEOUT_PERIOD = 600.0;
 // Minimum wait time duration
 static const double         MINIMUM_WAIT_TIME = 1.0;
 
